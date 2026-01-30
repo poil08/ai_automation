@@ -88,7 +88,7 @@ Emails will **NOT** be sent if:
 ## Workflow File
 
 **File:**  
-`ai_outreach_workflow.json`
+`ai_outreach_automation.json`
 
 Import this file into n8n to use the automation.
 
