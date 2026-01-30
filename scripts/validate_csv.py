@@ -21,7 +21,7 @@ def main(path: str) -> int:
     # Detect trailing/leading spaces
     stripped = [h.strip() for h in headers]
     if headers != stripped:
-        print("❌ Header whitespace detected!")
+        print("Header whitespace detected!")
         for i, (orig, clean) in enumerate(zip(headers, stripped)):
             if orig != clean:
                 print(f"  - Column {i+1}: '{orig}' -> '{clean}'")
@@ -30,7 +30,7 @@ def main(path: str) -> int:
 
     missing = [c for c in REQUIRED if c not in headers]
     if missing:
-        print("❌ Missing required columns:")
+        print("Missing required columns:")
         for c in missing:
             print(f"  - {c}")
         return 1
