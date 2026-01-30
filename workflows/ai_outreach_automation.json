@@ -28,28 +28,23 @@
       ],
       "id": "2e5bc8f1-0935-4b79-a62b-556b45e61633",
       "name": "Message a model",
-      "credentials": {
-        "openAiApi": {
-          "id": "3DtH38ow0gnw13lg",
-          "name": "OpenAi account"
-        }
-      }
+      "credentials": {}
     },
     {
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY",
+          "value": "YOUR_GOOGLE_SHEET_ID_HERE",
           "mode": "list",
           "cachedResultName": "AI Outreach Leads",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "시트1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE"
         },
         "options": {}
       },
@@ -61,11 +56,7 @@
       ],
       "id": "cc9e5d03-5000-4816-9341-22a88e8ec2f5",
       "name": "Get row(s) in sheet",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "7mTncdE1hjvY0QjX",
-          "name": "Google Sheets account"
-        }
+      "credentials": {}
       }
     },
     {
@@ -73,17 +64,17 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY",
+          "value": "YOUR_GOOGLE_SHEET_ID_HERE",
           "mode": "list",
           "cachedResultName": "AI Outreach Leads",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "시트1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit#gid=0"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -197,12 +188,7 @@
       ],
       "id": "b672e07e-c9f7-4e9a-bc0c-38e4d61ab5c9",
       "name": "Update row in sheet",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "7mTncdE1hjvY0QjX",
-          "name": "Google Sheets account"
-        }
-      }
+      "credentials": {}
     },
     {
       "parameters": {
@@ -262,11 +248,7 @@
       "id": "6f9532b8-06f7-472e-84a7-d0c49b8f72b4",
       "name": "Send a message",
       "webhookId": "eaf2387b-35fb-425e-8f0f-97a547f665bc",
-      "credentials": {
-        "gmailOAuth2": {
-          "id": "E1s8Jm4slPMrKq0a",
-          "name": "Gmail account"
-        }
+      "credentials": {}
       }
     },
     {
@@ -318,17 +300,17 @@
         "operation": "update",
         "documentId": {
           "__rl": true,
-          "value": "1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY",
+          "value": "YOUR_GOOGLE_SHEET_ID_HERE",
           "mode": "list",
           "cachedResultName": "AI Outreach Leads",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "시트1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit#gid=0"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -457,11 +439,7 @@
       ],
       "id": "ccffe39a-7156-4481-bc73-e7bb0daa022e",
       "name": "Update row in sheet1",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "7mTncdE1hjvY0QjX",
-          "name": "Google Sheets account"
-        }
+      "credentials": {}
       }
     },
     {
@@ -475,17 +453,17 @@
         },
         "documentId": {
           "__rl": true,
-          "value": "1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY",
+          "value": "YOUR_GOOGLE_SHEET_ID_HERE",
           "mode": "list",
           "cachedResultName": "AI Outreach Leads",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit?usp=drivesdk"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
           "cachedResultName": "시트1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1guDHDSHuzep5uXsnywzcK1tfNqmtQmHn1OMqyXthCMY/edit#gid=0"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/YOUR_GOOGLE_SHEET_ID_HERE/edit#gid=0"
         },
         "event": "rowUpdate",
         "options": {}
@@ -498,11 +476,7 @@
       ],
       "id": "9b3550b1-d7b3-47e6-9a97-cbd5541ae551",
       "name": "Google Sheets Trigger",
-      "credentials": {
-        "googleSheetsTriggerOAuth2Api": {
-          "id": "DcE9E7v8FMSL7ku1",
-          "name": "Google Sheets Trigger account"
-        }
+      "credentials": {}
       }
     },
     {
