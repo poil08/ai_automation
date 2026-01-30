@@ -1,4 +1,4 @@
 Company_name,website,contact_name,email,approved,sent_at,email_subject,email_body,status
 Allbirds,https://www.allbirds.com,Marketing Team,test+allbirds@example.com,YES,,,,
-Pattern,https://pattern.com,Revenue Ops,test+pattern@example.com,YES,,,,
-Warby Parker,https://www.warbyparker.com,Growth Team,test+warby@example.com,, ,,,,
+MyLife,https://mylife.com,Revenue Ops,test+mylife@example.com,YES,,,,
+Warby Parker,https://www.warbyparker.com,Growth Team,test+warby@example.com,NO, ,,,,
