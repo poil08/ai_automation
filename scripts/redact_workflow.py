@@ -2,8 +2,8 @@ import json
 import re
 from pathlib import Path
 
-INP = Path("workflows/n8n_ai_sales_outreach_workflow.json")
-OUT = Path("workflows/n8n_ai_sales_outreach_workflow.redacted.json")
+INP = Path("workflows/ai_outreach_automation.json")
+OUT = Path("workflows/ai_outreach_automation.redacted.json")
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}")
 KEY_RE = re.compile(r"sk-[A-Za-z0-9]{10,}")  # catches OpenAI-style keys
