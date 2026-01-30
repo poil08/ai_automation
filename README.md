@@ -107,6 +107,14 @@ A marketing or sales team can manage leads in a spreadsheet and automatically se
 
 ---
 
+## Scripts
+
+- `scripts/validate_csv.py` — validates column names (catches trailing space bugs)
+- `scripts/make_sample_leads.py` — generates `data/sample_leads.csv`
+- `scripts/redact_workflow.py` — creates a safe workflow export for GitHub
+
+---
+
 ## License
 
 MIT License
