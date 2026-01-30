@@ -16,10 +16,10 @@ ROWS = [
         "status": "",
     },
     {
-        "Company_name": "Pattern",
-        "website": "https://pattern.com",
+        "Company_name": "MyLife",
+        "website": "https://mylife.com",
         "contact_name": "Revenue Ops",
-        "email": "test+pattern@example.com",
+        "email": "test+mylife@example.com",
         "approved": "YES",
         "sent_at": "",
         "email_subject": "",
