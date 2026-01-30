@@ -1,3 +1,4 @@
-company,website,contact_name,email
-Allbirds,https://www.allbirds.com,Jane Doe,jane@example.com
-Gymshark,https://www.gymshark.com,John Smith,john@example.com
+Company_name,website,contact_name,email,approved,sent_at,email_subject,email_body,status
+Allbirds,https://www.allbirds.com,Marketing Team,test+allbirds@example.com,YES,,,,
+Pattern,https://pattern.com,Revenue Ops,test+pattern@example.com,YES,,,,
+Warby Parker,https://www.warbyparker.com,Growth Team,test+warby@example.com,, ,,,,
